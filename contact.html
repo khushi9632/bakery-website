@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Bliss - Contact</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f8f1e4; text-align: center; }
+        nav { margin-top: 20px; }
+        nav a { color: #d9a565; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        form { display: inline-block; text-align: left; margin-top: 20px; }
+        label, input, textarea { display: block; margin-bottom: 10px; }
+        input, textarea { width: 100%; padding: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bakery Bliss</h1>
+        <p>Freshly baked delights for all occasions</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you!</p>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
